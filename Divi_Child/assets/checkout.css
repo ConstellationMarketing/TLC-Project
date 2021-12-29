@@ -1,0 +1,14 @@
+.woocommerce-form-coupon-toggle {
+  display: none;
+}
+
+#place_order {
+  border: 0px!important;
+  padding-top: 15px!important;
+  padding-bottom: 15px!important;
+  padding-left: 20px!important;
+  padding-right: 20px!important;
+  border-radius: 0px;
+  text-align: center;
+  background-color: #ba2123;
+}

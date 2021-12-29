@@ -1,0 +1,201 @@
+.course-register__header {
+  background: #f2efef;
+  padding: 2.5em 0;
+}
+
+.course-register__title {
+  background: #f2efef;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+.register-step-content {
+  padding-top: 30px;
+}
+
+.register-step-content h2 {
+  margin-bottom: 30px;
+  padding-bottom: 0;
+}
+
+.register-step-content h3 {
+  font-size: 22px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.register-step-content h4 {
+  font-size: 18px;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.register-step-content p, .register-step-content strong {
+  margin-bottom: 15px;
+}
+
+.register-step-content ul {
+  list-style: disc !important;
+  margin-bottom: 15px;
+}
+
+.register-step-content ol {
+  list-style: decimal !important;
+  margin-bottom: 15px;
+}
+
+.register-step-content div.error {
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+
+.register-step__submit-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 30px;
+}
+
+.register-step__prev-btn {
+  margin-right: auto;
+  border-radius: 0 !important;
+  padding: 10px 15px;
+  text-transform: uppercase !important;
+  transition: all .2s;
+  color: #1a1a1a;
+  background-color: #f5f5f5;
+  border-color: #e8e8e8;
+  font-weight: bold;
+}
+
+.register-step__next-btn {
+  text-transform: uppercase;
+  transition: all .2s;
+  color: #ffffff;
+  background-color: #0b3c43;
+  border-color: #000;
+  display: inline-block;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  font-size: 16px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.register-step__form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.register-step__info-row {
+  margin-bottom: 15px;
+  padding: 0 15px;
+}
+
+.register-step__info-row--yesno {
+  display: flex;
+  justify-self: space-between;
+}
+
+.register-step__info-row label:first-of-type {
+  margin-right: 15px;
+  flex: 0 0 70%;
+}
+
+.register-step__input-container {
+  flex: 1 0 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+
+.register-step__input-container.cols-3 {
+  flex: 1 0 33.33%;
+}
+
+.register-step__input-container.onerow {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.register-step__input-container.onerow label {
+  margin-right: 30px;
+  width: 60%;
+}
+
+.register-step__input-container label {
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.register-step__info-row > label {
+  font-weight: bold;
+}
+
+.register-step__input-container input, .register-step__input-container select {
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.register-step__input-container input.error, .register-step__input-container select.error, .register-step__info-row textarea.error, textarea.error {
+  border: 3px solid #ba2123;
+}
+
+#faq-link {
+  border-radius: 0 !important;
+  padding: 5px 10px;
+  text-transform: uppercase !important;
+  transition: all .2s;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #1a1a1a;
+  background-color: #f5f5f5;
+  border-color: #e8e8e8;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+#faq-link:hover, #faq-link:focus {
+  color: #1a1a1a;
+  background-color: #dcdcdc;
+  border-color: #cacaca;
+}
+
+.already-registered-notification {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
